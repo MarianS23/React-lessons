@@ -1,0 +1,41 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.wrapper .comment{
+  height: 200px;
+}
+
+.form-tamplate{
+  width: 200px;
+  height: 400px;
+  margin: 200px auto;
+  
+  border: 1px solid black; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.form-tamplate form{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-tamplate form .btn{
+  margin: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+.form-tamplate form .btn:hover{
+  background-color: white;
+  color: green;
+}
